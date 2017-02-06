@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BranchCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Branch_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="Zone" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" type="xs:string" minOccurs="0" />
+              <xs:element name="Address1" type="xs:string" minOccurs="0" />
+              <xs:element name="Address2" type="xs:string" minOccurs="0" />
+              <xs:element name="Address3" type="xs:string" minOccurs="0" />
+              <xs:element name="Pin" type="xs:string" minOccurs="0" />
+              <xs:element name="State" type="xs:string" minOccurs="0" />
+              <xs:element name="District" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone_x0020_No" type="xs:string" minOccurs="0" />
+              <xs:element name="Email_x0020_Id" type="xs:string" minOccurs="0" />
+              <xs:element name="PartCode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
